@@ -8,6 +8,8 @@ To properly run SnapeBot you need `PHP >= 7.3` and the `pdo`, `pdo-mysql`, `mbst
 
 They are often preinstalled, but if they are not, you'll have to install them.
 
+_Please note that SnapeBot **could** be compatible with other PHP versions, but I haven't tested it so I cannot ensure the compatibility_
+
 
 # Installation
 
