@@ -49,6 +49,8 @@ Checks if a user is in the database. If not, it adds him. If yes, it checks the 
 |name|string|User's name|true|
 |username|string|User's username. Can be empty|false|
 
+Returns the users data in the database (e.g `['ID' => 1, 'userID' => 289392, 'name' => 'Enea Dolcini', 'username' => 'Nen3one', 'page' = >'']`).
+
 
 ### addUserToDatabase
 
