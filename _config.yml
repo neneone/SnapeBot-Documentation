@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: SnapeBot Documentation
 description: PHP class-based framework for Telegram Bots
+github:
+  repository_url: https://github.com/neneone/SnapeBot
