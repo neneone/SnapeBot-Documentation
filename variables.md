@@ -13,12 +13,16 @@ It works in the following way:
 * That function calls the `parseUPDATE_TYPE` function that parses all the update and that returns its value.
 * Then all of the `$updateType->data` becomes `$SnapeBot->data`.
 
+I know it looks pretty difficult to understand, but maybe it'll be clearer with the following example.
+
 e.g.:
 
 The user `@Nen3one`, with user ID `304949284`, sends the message `/start` to the bot.
 
 `$SnapeBot->username` becomes `@Nen3one`
+
 `$SnapeBot->userID` becomes `304949284`
+
 `$SnapeBot->msg` becomes `/start`
 
 and so on.
