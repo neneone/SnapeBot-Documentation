@@ -17,6 +17,7 @@ SnapeBot is a class-based framework that allows you to easily interact with Bot 
 * [Features](https://snapebot.neneone.cf/features.html)
 * [Requirements](https://snapebot.neneone.cf/installation.html#requirements)
 * [Installation](https://snapebot.neneone.cf/installation.html#installation)
+* [Updating](https://snapebot.neneone.cf/update.html)
 * [Settings](https://snapebot.neneone.cf/settings.html)
 * [How to use](https://snapebot.neneone.cf/how_to_use.html)
 * [Managing database](https://snapebot.neneone.cf/database.html)
