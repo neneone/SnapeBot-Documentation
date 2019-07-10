@@ -15,6 +15,7 @@ A SnapeBot, technically `\neneone\SnapeBot\SnapeBot` is structured in the follow
 * `$SnapeBot->API` is an instance of `\neneone\SnapeBot\API`, a class that contains some handy functions to interact with the Bot API ([read more](API/methods.md)).
 * `$SnapeBot->botToken` contains the Bot Token.
 * `$SnapeBot->botInformations` contains the result of `getMe`. It's set only if [getBotInformations](settings.md#getbotinformations) setting is `true`.
+* `$SnapeBot->db` is the PDO database connection.
 
 Additionally, you can find variables at `$SnapeBot->variableName` following [this explanation](variables.md).
 
