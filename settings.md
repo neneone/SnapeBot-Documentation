@@ -93,3 +93,5 @@ _Note that if you really want to encrypt your callbackdatas **you must change** 
 |tableName|string|The table's name to create and/or to use|snapeBot|false|
 
 _Note: I recommend to pay attention when passing database settings to SnapeBot 'cause you probably want to change also settings that have a default value._
+
+[Next section](how_to_use.md)
