@@ -24,4 +24,4 @@ git reset --hard HEAD && git pull
 ```
 
 
-[Next section](https://snapebot.neneone.cf/settings.html)
+[Next section](settings.md)
