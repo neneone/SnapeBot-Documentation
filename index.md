@@ -20,6 +20,7 @@ SnapeBot is a class-based framework that allows you to easily interact with Bot 
 * [Updating](update.md)
 * [Settings](settings.md)
 * [How to use](how_to_use.md)
+* [Understanding variables](variables.md)
 * [Managing database](database.md)
 * [$SnapeBot->API methods](API/methods.md)
 
