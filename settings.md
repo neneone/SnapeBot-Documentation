@@ -59,21 +59,21 @@ _[Read more](advanced/callbackDataEncryption.md)_
 |------|------|-------------|---------|----------|
 |encryptionData|array|Data for `specialEncrypt` and `specialDecrypt`, used also to encrypt callbackdatas.|down here|false|
 
-##### Default:
+#### Default:
 
 | Name | Value |
 |------|-------|
 |key|SnapeBotKey2019|
 |iv|SnapeBotAwesomeIV2019|
 
-##### Structure:
+#### Structure:
 
 | Name | Type | Description | Default | Required |
 |------|------|-------------|---------|----------|
 |key|string|The key for encryption|SnapeBotKey2019|false|
 |iv|string|The IV for encryption|SnapeBotAwesomeIV2019|false|
 
-_Note: if you really want to encrypt your callbackdatas **you must change** these values, otherwise everyone who understands you're using SnapeBot will be able to decrypt your callbackdatas._
+_Note that if you really want to encrypt your callbackdatas **you must change** these values, otherwise everyone who understands you're using SnapeBot will be able to decrypt your callbackdatas._
 
 
 ### database
@@ -82,7 +82,7 @@ _Note: if you really want to encrypt your callbackdatas **you must change** thes
 |------|------|-------------|---------|
 |database|array|Database data to connect to the database|true|
 
-##### Structure:
+#### Structure:
 
 | Name | Type | Description | Default | Required |
 |------|------|-------------|---------|----------|
