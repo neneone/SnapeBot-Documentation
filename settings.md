@@ -4,7 +4,7 @@ description: How to manage settings
 ---
 # Settings
 
-SnapeBot's settings schema is stored in `$SnapeBot::$settingsSchema`. When you create an instance of `\neneone\SnapeBot\SnapeBot` passing the settings, it automatically builds them setting default values when there isn't a setting.
+SnapeBot's settings schema is stored in `$SnapeBot::$settingsSchema`. When you create an instance of `\neneone\SnapeBot\SnapeBot` passing the settings, it automatically builds them setting default values when there is a setting that you haven't passed and that has a default value.
 
 A required setting is a setting that hasn't a default value, so **you must specify his value**. If you don't, an Exception will be thrown.
 
