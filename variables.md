@@ -4,7 +4,7 @@ description: A simple guide to understand SnapeBot's variables.
 ---
 # Understanding variables
 
-To have a complete knowledge of SnapeBot's variables you should have a look at [`variablesMaker.php`](https://github.com/neneone/SnapeBot/blob/master/src/VariablesMaker.php) file of the source code.
+To have a complete knowledge of SnapeBot's variables you should have a look at [`VariablesMaker.php`](https://github.com/neneone/SnapeBot/blob/master/src/VariablesMaker.php) file of the source code.
 
 It works in the following way:
 
@@ -27,6 +27,6 @@ The user `@Nen3one`, with user ID `304949284`, sends the message `/start` to the
 
 and so on.
 
-The name of the variables are in the [`variablesMaker.php`](https://github.com/neneone/SnapeBot/blob/master/src/VariablesMaker.php) file of the source code.
+The name of the variables are in the [`VariablesMaker.php`](https://github.com/neneone/SnapeBot/blob/master/src/VariablesMaker.php) file of the source code.
 
 [Next section](database.md)
