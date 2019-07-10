@@ -15,8 +15,8 @@ _Please note that SnapeBot **could** be compatible with other PHP versions, but 
 
 There are two ways to install SnapeBot:
 
-* [Using composer (highly recommended)](https://snapebot.neneone.cf/installation.html#composer)
-* [Using `semiAutoloader.php`](https://snapebot.neneone.cf/installation.html#semiautoloader)
+* [Using composer (highly recommended)](installation.md#composer)
+* [Using `semiAutoloader.php`](installation.md#semiautoloader)
 
 
 ## Composer
@@ -46,4 +46,4 @@ where `BOT_DIRECTORY` is the **empty** directory where you want to install Snape
 
 Then require `semiAutoloader.php` in your `index.php` file.
 
-[Next section](https://snapebot.neneone.cf/update.html)
+[Next section](update.md)
