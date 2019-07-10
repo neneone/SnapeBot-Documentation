@@ -1,6 +1,6 @@
 ---
 title: sendMessage
-description: sendMessage API methods
+description: sendMessage API method
 ---
 # API sendMessage method
 
