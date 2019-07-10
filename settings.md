@@ -34,7 +34,7 @@ _Note that if there is no [`botUsername`](#botusername) [`getBotInformations`](#
 
 | Name | Type | Description | Default | Required |
 |------|------|-------------|---------|----------|
-|firstRun|boolean|This is needed to be true only for the first run of the script, then you can turn it off for better speed.|true|false|
+|firstRun|boolean|This is needed to be true only the first time you run the script, then you can turn it off for better speed.|true|false|
 
 
 ### autoSaveUsers
