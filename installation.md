@@ -21,7 +21,9 @@ There are two ways to install SnapeBot:
 
 ## Composer
 
-It's very easy to install, require and update SnapeBot using composer; you can do it automatically using the following command:
+It's very easy to install, require and update SnapeBot using composer.
+
+You can install SnapeBot using the following command:
 
 ```
 echo '{}' > composer.json && composer config minimum-stability dev && composer require neneone/snapebot
@@ -41,5 +43,7 @@ git clone https://github.com/neneone/SnapeBot BOT_DIRECTORY
 ```
 
 where `BOT_DIRECTORY` is the **empty** directory where you want to install SnapeBot.
+
+Then require `semiAutoloader.php` in your `index.php` file.
 
 [Next section](https://snapebot.neneone.cf/update.html)
