@@ -73,4 +73,19 @@ Updates an user in the database, without checking `lastUpdate`.
 |name|string|User's name|true|
 |username|string|User's username|true|
 
+
+### setPage
+
+Set the user's `page` field. This can be useful for temporary data (e.g. if the user's going to write a message to forward to an admin).
+
+Actually, you can use this method to change one field in the database.
+
+| Parameter | Type | Description | Required | Default |
+|-----------|------|-------------|----------|---------|
+|data|string|Data to set|false|''|
+|userID|int|The userID you want to set the data to|false|`$SnapeBot->userID`|
+|field|string|The field you want to update|false|`page`|
+
+_Please note that if no `userID` is provided and there isn't `$SnapeBot->userID`, this function will throw an Exception. If you have an incoming message and it comes from a private chat or a group, you'll not need to pass the `userID`._
+
 [Next section](API/methods.md)
