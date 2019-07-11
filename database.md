@@ -12,7 +12,7 @@ SnapeBot automatically connects to the database using PDO with the informations 
 
 The connection is stored in `$SnapeBot->db` so, for a query, you have to write `$SnapeBot->db->query('YOUR SQL');`.
 
-## Database table
+## Database table
 
 SnapeBot will automatically create a table too, named with the `tableName` you provided in the settings. For convenience, you can find the table name in `$SnapeBot->tName` too.
 
