@@ -4,7 +4,7 @@ description: Requirements and installation for SnapeBot
 ---
 # Requirements
 
-To properly run SnapeBot you need `PHP >= 7.3` and the `pdo`, `pdo-mysql`, `mbstring` and `curl` extensions.
+To properly run SnapeBot you need `PHP >= 7.2` and the `pdo`, `pdo-mysql`, `mbstring` and `curl` extensions.
 
 They are often preinstalled, but if they are not, you'll have to install them.
 
