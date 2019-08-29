@@ -4,6 +4,8 @@ description: SnapeBot has great built-in features.
 ---
 # Features
 
+* It has **support for all Bot API methods**.
+
 * It allows you to easily manage the configuration using an array ([settings guide](settings.md)).
 
 * It allows you to encrypt callback data.
