@@ -78,9 +78,11 @@ _Note that if you really want to encrypt your callbackdatas **you must change** 
 
 ### database
 
-| Name | Type | Description | Required |
-|------|------|-------------|---------|
-|database|array|Database data to connect to the database|true|
+| Name | Type | Description | Default | Required |
+|------|------|-------------|---------|----------|
+|database|array|Database data to connect to the database|false|false|
+
+_If set to false, no database will be used_
 
 #### Structure:
 
@@ -92,6 +94,6 @@ _Note that if you really want to encrypt your callbackdatas **you must change** 
 |password|string|The password for the database connection|''|false|
 |tableName|string|The table's name to create and/or to use|snapeBot|false|
 
-_Note: I recommend to pay attention when passing database settings to SnapeBot 'cause you probably want to change also settings that have a default value._
+_Note: I recommend to pay attention when passing database settings to SnapeBot because you probably want to change also settings that have a default value._
 
 [Next section](how_to_use.md)
