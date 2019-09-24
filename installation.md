@@ -19,9 +19,9 @@ There are two ways to install SnapeBot:
 
 It's very easy to install, use and update SnapeBot using the PHAR archive.
 
-**You don't even need Composer**, and this method can be applyed on a webhost.
+**You don't even need Composer**, and this method can be applyed on webhosts.
 
-To install SnapeBot via PHAR, simply download [this file](https://neneone.xyz/SnapeBot/loadSnapeBot.php) and require it in your file in your `index.php` as the following.
+To install SnapeBot via PHAR, simply download [this file](https://neneone.xyz/SnapeBot/loadSnapeBot.php) and require it in your `index.php` as the following.
 
 ```php
 require_once __DIR__.'/loadSnapeBot.php';
