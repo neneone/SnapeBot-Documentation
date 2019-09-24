@@ -13,7 +13,7 @@ They are often preinstalled, but if they are not, you'll have to install them.
 There are two ways to install SnapeBot:
 
 * [Using PHAR (highly recommended)](installation.md#simple)
-* [Using composer (highly recommended)](installation.md#composer)
+* [Using composer](installation.md#composer)
 
 ## Simple
 
