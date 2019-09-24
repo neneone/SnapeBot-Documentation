@@ -4,24 +4,32 @@ description: Requirements and installation for SnapeBot
 ---
 # Requirements
 
-To properly run SnapeBot you need `PHP >= 7.2` and the `pdo`, `pdo-mysql`, `mbstring`, `curl` and `json` extensions.
+To properly run SnapeBot you need `PHP >= 7.1` and the `pdo`, `pdo-mysql`, `mbstring`, `curl` and `json` extensions.
 
 They are often preinstalled, but if they are not, you'll have to install them.
-
-_Please note that SnapeBot **should** be compatible with `PHP >= 7.1`, but I haven't tested it so I cannot ensure the compatibility_
-
 
 # Installation
 
 There are two ways to install SnapeBot:
 
+* [Using PHAR (highly recommended)](installation.md#simple)
 * [Using composer (highly recommended)](installation.md#composer)
-* [Using `semiAutoloader.php`](installation.md#semiautoloader)
 
+## Simple
+
+It's very easy to install, use and update SnapeBot using the PHAR archive.
+
+**You don't even need Composer**, and this method can be applyed on a webhost.
+
+To install SnapeBot via PHAR, simply download [this file](https://neneone.xyz/SnapeBot/loadSnapeBot.php) and require it in your file in your `index.php` as the following.
+
+```php
+require_once __DIR__.'/loadSnapeBot.php';
+```
 
 ## Composer
 
-It's very easy to install, require and update SnapeBot using composer.
+It's very easy to install, use and update SnapeBot using composer too.
 
 You can install SnapeBot using the following command:
 
@@ -30,20 +38,5 @@ echo '{}' > composer.json && composer config minimum-stability dev && composer r
 ```
 
 then `require 'vendor/autoload.php'` in your `index.php` file.
-
-
-## semiAutoloader
-
-It's not recommended at all to use this method, because it's pretty unstable, difficult to update and maybe it will be deprecated in the future.
-
-To install SnapeBot with this method, run the following command:
-
-```
-git clone https://github.com/neneone/SnapeBot BOT_DIRECTORY
-```
-
-where `BOT_DIRECTORY` is the **empty** directory where you want to install SnapeBot.
-
-Then require `semiAutoloader.php` in your `index.php` file.
 
 [Next section](update.md)
