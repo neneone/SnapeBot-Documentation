@@ -14,4 +14,4 @@ To use a BotAPI method just write `$SnapeBot->BotAPI->methodName($param1, $param
 
 You can also use an array containing the parameters: `$SnapeBot->BotAPI->methodName([$param1, $param2]);`.
 
-[Next section](settings.md)
+[Next section](variables.md)
