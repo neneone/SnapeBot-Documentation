@@ -22,6 +22,7 @@ It also supports **all the Bot API methods**.
 * [Updating](update.md)
 * [Settings](settings.md)
 * [How to use](how_to_use.md)
+* [Using BotAPI methods](botapi_methods.md)
 * [Understanding variables](variables.md)
 * [Managing database](database.md)
 * [$SnapeBot->API methods](API/methods.md)
