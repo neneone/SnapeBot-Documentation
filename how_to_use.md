@@ -48,4 +48,4 @@ if (isset($bot->msg) && $bot->msg == '/start') { #Check if there is a message, a
 
 This examples creates a bot that, when the `/start` command is sent, says `Hello World!`.
 
-[Next section](variables.md)
+[Next section](botapi_methods.md)
