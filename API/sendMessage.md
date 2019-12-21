@@ -13,6 +13,9 @@ This method sends a message, with an easy-to-use keyboard parameter to send norm
 |keyboard|An inline or normal keyboard to send or the `hide` string to hide a normal keyboard|false|
 |keyboard type|Can be `inline`, `hide` or anything else for a normal keyboard. Default is `inline`.|false|
 |disable notification|Disable notification for this message? Default is `false`|false|
+|parse mode|Message parse mode. Default is `HTML`|false|
+|disable webpage preview|Default is `true`|false|
+|reply to message|The message ID to reply to|false|
 
 You can have an example for this method [here](https://github.com/neneone/SnapeBot/blob/master/Examples/simpleBot/botCommands.php).
 
